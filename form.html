@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<h1>Formulaire candidat</h1>
+	<form method="post"action="traitement.php">
+	<p>
+	<label for="nom">Votre nom et prenom:</label>	
+    <input type="text" name="nom_user"id="nom"/><br/>
+    <label for="mail">votre adresse mail</label>
+    <input type="text" name="mail"id="mail"/><br/>
+    <label for="age">Quel est votre age ?</label>
+    <input type="text" name="age"id="age"/><br/>
+
+     Cochez les langues que vous maitrisez:<br/>
+     <input type="checkbox" id="anglais"/>
+     <labelfor="anglais">Anglais</label><br/>
+     <input type="checkbox" id="francais"/>
+     <labelfor="francais">Francais</label><br/>
+     <input type="checkbox"id="espagnol"/>
+     <labelfor="espagnol">Espagnol</label><br/>
+     <input type="checkbox"id="chinois"/>
+     <labelfor="chinois">Chinois</label><br/>
+
+     <label for="competence"> Quelles sont vos competences?</label>
+     <input type="text" name="competences"id="competences"/><br/>
+
+     <input type="submit" value="Envoyer"><input type="reset" value="Reinitialiser">
+
+	</p>	
+</form>
+
+</body>
+</html>
